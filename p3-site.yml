@@ -14,6 +14,7 @@
   #  - adminer
     - siteinstall
     - rsyncinstall
+    - site-ws
   #  - adminer2
     - pm2
     # - phpmyadmin
