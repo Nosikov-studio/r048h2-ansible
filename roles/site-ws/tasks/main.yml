@@ -69,5 +69,25 @@
 
 #---------------------------------------------------------2
 
+#---------------------------------------------------------
+
+    - name: Copy nginx config file for truruki
+      copy:
+        src: files/truruki
+        dest: /etc/nginx/sites-available/truruki
+        mode: 0777
+#-----------------------------------------------------------
+
+    - name: Link folder
+      file:
+        src: /etc/nginx/sites-available/truruki
+        dest: /etc/nginx/sites-enabled/truruki
+        state: link
+
+
+    - name: Reload nginx
+      service:
+        name: nginx
+        state: reloaded
 
 

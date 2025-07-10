@@ -1,7 +1,7 @@
 server {
 listen 80; 
-server_name    truruky.ru;        
-        root  /var/www/client; 
+server_name    truruki.ru;        
+        root  /var/www/ws/public/; 
         index index.html index.htm; 
         
 
