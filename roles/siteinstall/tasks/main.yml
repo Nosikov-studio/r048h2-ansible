@@ -45,7 +45,7 @@
 
     - name: Copy files from github
       git:
-        repo: git@github.com:Nosikov-studio/r047l-backend.git
+        repo: git@github.com:Nosikov-studio/r047h2-websocket.git
         dest: /var/www/trur/
         key_file: /root/www/.ssh/id_ed25519
         accept_hostkey: yes

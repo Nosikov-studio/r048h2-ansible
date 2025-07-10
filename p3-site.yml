@@ -6,13 +6,13 @@
   roles:
     - test-role
     - nodejs
-    - mongodb
-    - mongodbcreat
+  #  - mongodb
+  #  - mongodbcreat
     - nginxdefault    
   #  - phpinstall
   #  - test-php
   #  - adminer
-    - siteinstall
+  #  - siteinstall
     - rsyncinstall
     - site-ws
   #  - adminer2
